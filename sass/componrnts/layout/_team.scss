@@ -1,0 +1,96 @@
+.team {
+    background-color: #f5f4fa;
+}
+
+.team-logo {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-link {
+    list-style: none;
+    display: flex;
+}
+
+.padding-team {
+    padding: 30px 0;
+}
+
+.team-lins {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-lins+.team-lins {
+    margin-left: 30px;
+}
+
+.team-mini-logo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    margin-bottom: 10px;
+}
+
+.team-list {
+    display: flex;
+
+    justify-content: center;
+    list-style: none;
+}
+
+.team-icon {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.team-list-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #afb1b8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:focus {
+                background-color: #2196f3;
+                color: #ffffff;
+            }
+        
+            &:hover {
+                background-color: #2196f3;
+                color: #ffffff;
+            }
+}
+
+
+.tem-logo {
+    fill: currentColor;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+    margin-bottom: 16px;
+}
