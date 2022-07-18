@@ -2,41 +2,96 @@
     background-color: #ffffff;
     margin-bottom: 0;
     padding-bottom: 0;
+    @media screen and (min-width: 320px) {
+            padding: 60px 0;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            padding: 94px 0;
+        }
+    
+ 
 }
 
 .home-one-ikons {
     display: flex;
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
+            flex-wrap: wrap;
+            row-gap: 136px;
+          
+   
+   
+   
 }
-
+}
+/*-
 .one-ikons:first-child {
     margin-left: 0;
-}
+}-*/
+
 
 .one-ikons {
-    width: 270px;
+    
     height: 120px;
     margin-left: 30px;
     list-style: none;
+    @media screen and (min-width:320px) {
+            padding: 15px;
+            
+            
+    
+        }
+    @media screen and (min-width: 768px) {
+            width: calc((100% - 60px) / 2);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-right: 30px;
+        }
+  
+   
+        
+    
+
 }
 
 .oneicon {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     width: 100%;
     height: 100%;
 
     background-color: #f5f4fa;
     border-radius: 4px;
+
+      
+    
+ 
+    
+    
+}
+.one-link-icon {
+    width: 100%;
+
+   
 }
 
 .home-one-ikons {
     padding-bottom: 94px;
+    
+ 
 }
 
 .section-one-list {
     list-style: none;
-    display: flex;
+  
+
+
+    
+       
+    
 }
 
 .section-one-list-link+.section-one-list-link {
@@ -44,7 +99,13 @@
 }
 
 .section-one-list-link {
-    max-width: 270px;
+    //max-width: 450px;
+
+    
+  
+   
+  
+   
 }
 
 .section-one-logo {
@@ -58,6 +119,11 @@
 
     margin-bottom: 10px;
     margin-top: 30px;
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
+            display: flex;
+            justify-content: center;
+        }
+  
 }
 
 .section-one-text {
@@ -67,4 +133,5 @@
     letter-spacing: 0.03em;
 
     color: #757575;
+   
 }

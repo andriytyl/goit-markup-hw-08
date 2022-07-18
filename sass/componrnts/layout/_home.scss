@@ -1,11 +1,14 @@
+
 .section-home-button {
     background-color: #2f303a;
     padding: 200px 0;
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/hiro/hero-bg.jpg);
-    max-width: 1600px;
+        url(../images/hiro/hero-bg.jpg)
+        ;
+   
+max-width: 1200px;
 
     margin-right: auto;
     margin-left: auto;
@@ -21,12 +24,106 @@
        &:focus {
             background-color: #188ce8;
         }
-}
+
+
+
+
+
+
+                           @media screen and (min-width: 480px) {
+                           
+                               background: #2f303a;
+                               height: 400px;
+                               width: 100%;
+                               margin: 0px auto;
+                               padding: 118px 0;
+                               margin: 0px auto;
+                               background-color: #c4c4c4;
+                               background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                                   url(../images/hiro/hero-bg.jpg);
+                               background-repeat: no-repeat;
+                               background-position: center;
+                               background-size: cover;
+            
+                            @media (min-device-pixel-ratio: 2),
+                                (-webkit-min-device-pixel-ratio: 2),
+                                (min-resolution: 192dpi),
+                                (min-resolution: 2dppx) {
+                                    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                                        url(/images/hiro/Header\ img.jpg);
+                                }
+            
+                           }
+        
+        
+                @media screen and (min-width: 768px) {
+                    background: #2f303a;
+                    height: 400px;
+                    width: 100%;
+                    margin: 0px auto;
+                    padding: 118px 0;
+                    margin: 0px auto;
+                    background-color: #c4c4c4;
+                    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                        url(../images/hiro/hero-bg.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+        
+                    @media (min-device-pixel-ratio: 2),
+                    (-webkit-min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) {
+                        background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                            url(/images/hiro/Header\ img\ \(1\).jpg);
+                    }
+        
+                }
+                 @media screen and (min-width: 1200px) {
+                     background: #2f303a;
+                     height: 400px;
+                     max-width: 1200px;
+                     margin: 0px auto;
+                     padding: 118px 0;
+                     margin: 0px auto;
+                     background-color: #c4c4c4;
+                     background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                         url(../images/hiro/hero-bg.jpg);
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     background-size: cover;
+        
+                     @media (min-device-pixel-ratio: 2),
+                     (-webkit-min-device-pixel-ratio: 2),
+                     (min-resolution: 192dpi),
+                     (min-resolution: 2dppx) {
+                         background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                             url(/images/hiro/hero-bg.jpg);
+                     }
+        
+                 }
+                
+
+    }
+
+  
+
+
+ 
+
+
+
+
+
+
+
+                         
+
 
 .section-home-button-logo {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -36,5 +133,9 @@
 
     margin: 0 auto;
     margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+        font-weight: 900;
+            font-size: 44px;
+            line-height: 1.37;
+    }
 }
-

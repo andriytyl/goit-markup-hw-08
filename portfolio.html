@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-   <header class="header-home">
+  
+     <header class="header-home">
       <div class="container">
         <a class="header-home-logo" href="./WebStudio"
           >Web<span class="logo-span">Studio</span>
@@ -55,11 +56,124 @@
             >
           </li>
         </ul>
+        <button type="button" class="btm-menu-open">
+          <svg class="menu-open" width="40" height="40">
+                <use href="./images/icons.svg#icon-menu_40px"></use>
+              </svg>
+        </button>
       </div>
+
+
+
+<div class="mobi-menu  is-hidden ">
+        <section class="conteiner-menu" >
+        <button type="button" class="btm-menu-close">
+          <svg class="menu-open" width="40" height="40">
+                <use href="./images/icons.svg#icon-close_40px"></use>
+              </svg>
+        </button>
+        <div class="mob-menu-top">
+ <ul class="menu-mob ">
+            <li class="menu-mob__links  ">
+              <a class="actives menu-mob__a   " href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="menu-mob__links">
+              <a class="menu-mob__a" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu-mob__links">
+              <a class="menu-mob__a" href="./">Контакты</a>
+            </li>
+          </ul>
+          <ul class="contact-mob">
+             </li>
+          <li class="contact-mob__contacnlink">
+            <a class="contact-mob__tel" href="tel:+380991111111">
+              
+              +38 099 111 11 11</a
+            >
+          </li>
+          <li class="contact-mob__contacnlink">
+            <a class="contact-mob__mail" href="mail:info@example.com">
+              
+              info@example.com</a
+            >
+         
+        </ul>
+        <ul class="menu-insta">
+          <li class="menu-insta-list">
+            <a href="" class="menu-insta-link">Instagram</a>
+          </li>
+          <li class="menu-insta-list">
+            <a href="" class="menu-insta-link">Twitter</a>
+          </li>
+          <li class="menu-insta-list">
+            <a href="" class="menu-insta-link">Facebook</a>
+          </li>
+          <li class="menu-insta-list">
+            <a href="" class="menu-insta-link">LinkedIn</a>
+          </li>
+        </ul>
+        </div>
+        </section>
+      </div>
+
+
+      <div class="menu-planset">
+ <div class="container container-planset">
+        <a class="header-planset-logo" href="./WebStudio"
+          >Web<span class="planset-logo-span">Studio</span>
+        </a>
+
+        <nav class="planset-header-home-nav">
+          <ul class="menu-planset">
+            <li class="menu__links">
+              <a class="menu__a active active-current" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="menu__links">
+              <a class="menu__a" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu__links">
+              <a class="menu__a" href="./">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-planshet">
+          <li class="contact__contacnlinks">
+            <a class="contact__tel" href="mail:info@example.com">
+              <svg class="mail-iconssvg" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope-hover"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li class="contact__contacnlink">
+            <a class="contact__tel" href="tel:+380991111111">
+              <svg class="tel-iconssvg" width="10" height="16">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+              +38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+
+        
+       
+      </div>
+      </div>
+
+
+      
     </header>
+  
+
     <main>
+
       <section class="section-button section">
-        <div class="container">
+        <div class="container  ">
           <h1 hidden>портфолио</h1>
 
           <ul class="section-ul">
@@ -118,7 +232,7 @@
               </div>
               <div class="galeri-wrapper">
                 <h2 class="section-galeri-logo">
-              Постер New Orlean vs Golden Star
+              Постер New Orlean vs Golden <br> Star
                 </h2>
                 <p class="section-galeri-text">Дизайн</p>
               </div>
@@ -262,9 +376,10 @@
         </div>
       </section>
     </main>
-    <footer class="footer-home">
+     <footer class="footer-home">
       <section class="section-footer container">
-        <div class="footer-div">
+       <div class="tablet-futre">
+         <div class="footer-div">
           <a class="footer-home-logo" href="./WebStudio"
             >Web<span class="footer-spen">Studio</span>
           </a>
@@ -319,6 +434,7 @@
             </li>
           </ul>
         </div>
+       </div>
 
         <form class="subscription-form">
           <h2 class="footer-label">Подпишитесь на рассылку</h2>
@@ -342,5 +458,6 @@
         </form>
       </section>
     </footer>
+  <script src="./js/menu.js"></script>
   </body>
 </html>

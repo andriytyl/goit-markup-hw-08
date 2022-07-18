@@ -23,6 +23,14 @@
     transition: transform 250ms;
     padding: 40px;
     border-radius: 4px;
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+            width: 450px;
+                height: 609px;
+        }
+                @media screen and (min-width: 768px) and (max-width: 1199px) {
+                    width: 450px;
+                        height: 609px;
+                }
 }
 
 .modal-close {
