@@ -4,6 +4,10 @@
     padding-bottom: 60px;
    
   }
+     @media screen and (min-width: 768px) and (max-width: 1199px) {
+       justify-content: center;
+       text-align: center;
+     }
 }
 .icons-logo {
   font-weight: 700;
@@ -25,6 +29,7 @@
       
         color: #212121;
     }
+        
 }
 
 .icons-new {
@@ -35,6 +40,11 @@
     @media screen and (min-width:480px) {
       padding-left:40px;
     }
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+         justify-content: center;
+          text-align: center;
+         padding-left: 0;
+        }
         
     
          
