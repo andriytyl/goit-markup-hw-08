@@ -590,6 +590,7 @@ img {
 .menu-insta {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .menu-insta-list {
@@ -792,7 +793,7 @@ img {
 
 .section-home-button {
   background-color: #2f303a;
-  padding: 200px 0;
+  padding: 118px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hiro/hero-bg.jpg);
   max-width: 1600px;
   margin-right: auto;
@@ -809,38 +810,27 @@ img {
 }
 @media screen and (min-width: 480px) {
   .section-home-button {
-    background: #2f303a;
-    width: 100%;
-    margin: 0px auto;
-    padding: 118px 0;
-    background-color: #c4c4c4;
-    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/Header\ img.jpg);
+    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/header\ img.jpg);
   }
 }
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .section-home-button {
-    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/Header\ img.jpg);
+    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/header\ img.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .section-home-button {
-    padding: 118px 0;
-    background-color: #c4c4c4;
-    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/Header\ img\ \(1\).jpg);
+    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/header\ img\ \(1\).jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .section-home-button {
-    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/Header\ img\ \(1\).jpg);
+    background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hiro/header\ img\ \(1\).jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .section-home-button {
-    background: #2f303a;
-    max-width: 1600px;
-    margin: 0px auto;
     padding: 200px 0;
-    background-color: #c4c4c4;
     background-image: linear-gradient(45deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hiro/hero-bg.jpg);
   }
 }
@@ -875,7 +865,7 @@ img {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1199px) {
   .section-one {
     padding: 60px 0;
   }
@@ -888,11 +878,11 @@ img {
 
 .home-one-ikons {
   display: flex;
+  gap: 30px;
 }
 @media screen and (min-width: 320px) and (max-width: 1199px) {
   .home-one-ikons {
     flex-wrap: wrap;
-    row-gap: 136px;
   }
 }
 
@@ -907,7 +897,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .one-ikons {
-    margin-right: 30px;
+    width: calc((100% - 90px) / 4);
   }
 }
 
@@ -930,7 +920,6 @@ img {
 }
 
 .section-one-list-link + .section-one-list-link {
-  margin-left: 30px;
   /*-
   */
   /*768*/
@@ -940,12 +929,6 @@ img {
     margin: 0;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .section-one-list-link + .section-one-list-link {
-    margin-left: 30px;
-  }
-}
-
 .section-one-logo {
   font-weight: 700;
   font-size: 14px;
@@ -972,6 +955,7 @@ img {
 
 .home-photo {
   background-color: #ffffff;
+  padding-top: 0;
 }
 @media screen and (max-width: 1199px) {
   .home-photo {
@@ -1000,6 +984,11 @@ img {
 
 .team {
   background-color: #f5f4fa;
+}
+@media screen and (max-width: 1200px) {
+  .team {
+    padding: 60px 0;
+  }
 }
 
 .team-logo {
@@ -1033,7 +1022,6 @@ img {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .team-lins {
@@ -1050,6 +1038,10 @@ img {
 .team-lins+.team-lins {
     margin-left: 30px;
 }-*/
+.team-lins:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .team-mini-logo {
   font-weight: 500;
   font-size: 16px;
@@ -1108,8 +1100,7 @@ img {
 
 @media screen and (max-width: 1200px) {
   .section-icons {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1133,7 +1124,8 @@ img {
     font-weight: 700;
     font-size: 28px;
     line-height: 1.18;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.03em;
     color: #212121;
   }
@@ -1144,6 +1136,7 @@ img {
   list-style: none;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 @media screen and (min-width: 480px) {
   .icons-new {
@@ -1607,6 +1600,11 @@ img {
     margin-top: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscription-form {
+    margin-left: 93px;
+  }
+}
 
 .footer-label {
   font-weight: 700;
@@ -1643,6 +1641,11 @@ img {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscription-mail-form {
+    flex-wrap: nowrap;
+  }
+}
 
 .subscription-icon {
   margin-left: 10px;
@@ -1650,7 +1653,7 @@ img {
 
 .futer-input {
   margin-right: 12px;
-  width: 358px;
+  max-width: 450px;
   height: 50px;
   font-size: 16px;
   line-height: 1.25;
@@ -1674,9 +1677,7 @@ img {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .futer-input {
-    margin-right: 15px;
-    width: 450px;
-    height: 50px;
+    width: 100%;
     margin-bottom: 20px;
   }
 }
@@ -1686,6 +1687,11 @@ img {
     width: 450px;
     height: 50px;
     margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .futer-input {
+    width: 358px;
   }
 }
 
@@ -1711,7 +1717,8 @@ img {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-buten {
-    margin-left: 125px;
+    margin: 0 auto;
+    margin-right: 0 auto;
   }
 }
 

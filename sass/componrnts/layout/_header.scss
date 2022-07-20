@@ -353,11 +353,13 @@
 .menu-insta {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 
 
 }
 .menu-insta-list {
     display: flex;
+    
     
 }
 .menu-insta__border{
